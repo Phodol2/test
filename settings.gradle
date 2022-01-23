@@ -1,0 +1,5 @@
+rootProject.name = 'test'
+include 'testModule'
+include 'testModule:test1'
+findProject(':testModule:test1')?.name = 'test1'
+
